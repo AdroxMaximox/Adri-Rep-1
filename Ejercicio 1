@@ -1,0 +1,49 @@
+Ej. 1
+git config --global user.name "Adri"
+git confif --global user.email "a.morenogarcia37@gmail.com"
+git config --global color.ui auto
+
+Ej. 2
+mkdir libro
+echo "# prueba-pred" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AdroxMaximox/prueba-pred.git
+git push -u origin main
+
+dir
+
+Ej. 3
+
+>echo Adri > indice.txt
+
+notepad indice.txt
+git status
+git add .
+git status
+
+Ej. 4
+
+>git commit -m “Añadido índice del libro”
+>git status
+
+Ej. 5
+
+>echo index.txt
+>git status
+>git status
+
+>git diff
+>git add índice.txt
+
+>git commit -m 
+
+Ej. 6
+
+>git show
+>git commit --amend -m “Añadido capítulo 3 sobre gestión de ramas índice”
+
+>git show
+
